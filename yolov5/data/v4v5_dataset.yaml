@@ -1,0 +1,10 @@
+
+path: ../../dataset_for_v4v5  # dataset root dir
+train: images  # train images (relative to 'path') 128 images
+val: images  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+nc: 4  # number of classes
+names: ['head', 'person','cellphone', 'lamp' ]  # class names
+
